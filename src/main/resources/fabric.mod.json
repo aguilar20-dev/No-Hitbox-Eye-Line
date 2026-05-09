@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nohitboxeyeline",
+  "version": "${version}",
+  "name": "No Hitbox Eye Line",
+  "description": "Removes the eye direction arrow from F3+B entity hitboxes.",
+  "authors": [
+    "aguilar20-dev"
+  ],
+  "contact": {
+    "email": "aguilar20-dev@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.aguilar20dev.nohitboxeyeline.NoHitboxEyeLine"
+    ]
+  },
+  "mixins": [
+    "nohitboxeyeline.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

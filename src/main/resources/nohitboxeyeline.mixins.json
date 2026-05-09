@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.aguilar20dev.nohitboxeyeline.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ArrowGizmoMixin",
+    "EntityHitboxDebugRendererMixin",
+    "LineGizmoMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
