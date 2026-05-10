@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "dev.aguilar20dev.nohitboxeyeline.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_25",
   "client": [
     "ArrowGizmoMixin",
     "EntityHitboxDebugRendererMixin",
