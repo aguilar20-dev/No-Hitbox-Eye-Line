@@ -12,6 +12,7 @@ A lightweight client-side Fabric mod for Minecraft 1.21.11 that removes the eye 
 * Lightweight and minimal
 * No gameplay changes
 * Works with Fabric 1.21.11
+* Fabric API not required
 
 ---
 
@@ -24,63 +25,7 @@ A lightweight client-side Fabric mod for Minecraft 1.21.11 that removes the eye 
 
 ## Building from Source
 
-Standard build:
+Build the mod with:
 
 ```sh
 ./gradlew build
-```
-
-Built jar will appear in:
-
-```text
-build/libs/
-```
-
----
-
-
-Then simply run:
-
-```sh
-./gradlew build
-```
-
-The mod will automatically be copied into your `mods` folder.
-
-You can also override the output directory:
-
-```sh
-./gradlew build -PmodOutputDir="/path/to/mods"
-```
-
-Example for WSL:
-
-```sh
-./gradlew build -PmodOutputDir="/mnt/c/Users/eacherey/AppData/Roaming/AstralRinthApp/profiles/uku_s pvp modpack/mods"
-```
-
----
-
-## Installation
-
-1. Install Fabric Loader
-2. Install Fabric API
-3. Put the mod jar into your `mods` folder
-4. Launch the game
-
----
-
-## Issues
-
-If you encounter a problem:
-
-* grab `latest.log` from the Minecraft logs folder
-* create a GitHub issue
-* attach the log file
-* describe the issue clearly
-
----
-
-## License
-
-[MIT](LICENSE)
